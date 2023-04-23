@@ -1,0 +1,772 @@
+Error,Category
+"IndexError: list index out of range",DATA_STRUCTURE
+"TypeError: 'NoneType' object is not callable",DATA_TYPE
+"cannot set a Timestamp with a non-timestamp",DATA_STRUCTURE
+"NameError: name 'function_name' is not defined",SYNTAX
+"'/long/random/file/path/to/datafile_2.csv' object has no attribute 'some_method_2'",DATA_STRUCTURE
+"2023-04-23 11:28:46: KeyError: 'key_name'",DATA_STRUCTURE
+"TypeError: 'float' object cannot be interpreted as an integer",DATA_TYPE
+"'/long/random/file/path/to/csv_file.csv': [Errno 21] Is a directory",DISK
+"2023-04-23 12:15:33: JSONDecodeError: Expecting property name enclosed in double quotes",DATA_FORMAT
+"AttributeError: 'tuple' object has no attribute 'append'",DATA_STRUCTURE
+"RuntimeError: The Session is unavailable because it was garbage collected.",RESOURCE
+"2023-04-23 13:18:21: FileNotFoundError: [Errno 2] No such file or directory: 'config.ini'",DISK
+"TypeError: '>' not supported between instances of 'str' and 'int'",DATA_TYPE
+"ValueError: '2023-04-23 14:03:29' array must not contain infs or NaNs",DATA_STRUCTURE
+"NameError: name 'variable_name' is not defined",SYNTAX
+"2023-04-23 14:46:17: ImportError: No module named 'library_name'",MODULE
+"ZeroDivisionError",ARITHMETIC
+"PermissionError: [Errno 13] Permission denied: '/long/random/file/path/to/protected_file.txt'",DISK
+"2023-04-23 15:22:58: IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",DATA_STRUCTURE
+"TypeError: can only concatenate str (not 'int') to str",DATA_TYPE
+"2023-04-23 16:17:43: AttributeError: 'generator' object has no attribute 'next'",DATA_STRUCTURE
+"RuntimeError: dictionary changed size during iteration",RESOURCE
+"TypeError: unsupported format string passed to numpy.ndarray.__format__",DATA_TYPE
+"2023-04-23 17:08:52: OSError: [Errno 28] No space left on device",DISK
+"TypeError: 'str' object does not support item assignment",DATA_TYPE
+"'/long/random/file/path/to/datafile_3.csv' object has no attribute 'some_method_3'",DATA_STRUCTURE
+"2023-04-23 18:23:37: KeyError: 'key_name_2'",DATA_STRUCTURE
+"ValueError: invalid literal for int() with base 10: 'string'",DATA_TYPE
+"NameError: name 'function_name_2' is not defined",SYNTAX
+"2023-04-23 19:31:46: IndexError: list index out of range",DATA_STRUCTURE
+"TypeError: 'NoneType' object is not callable",DATA_TYPE
+"cannot set a Timestamp with a non-timestamp",DATA_STRUCTURE
+"AttributeError: 'str' object has no attribute 'split'", DATA_STRUCTURE
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'", DATA_TYPE
+"KeyError: 'key_name'", DATA_STRUCTURE
+"ValueError: invalid literal for int() with base 10: '10.5'", DATA_TYPE
+"SyntaxError: invalid syntax", SYNTAX
+"FileNotFoundError: [Errno 2] No such file or directory: '/path/to/file.txt'", DISK
+"IndexError: list index out of range", DATA_STRUCTURE
+"TypeError: 'float' object is not iterable", DATA_TYPE
+"PermissionError: [Errno 13] Permission denied: '/path/to/protected_file.txt'", DISK
+"NameError: name 'variable_name' is not defined", SYNTAX
+"TypeError: can only concatenate list (not 'int') to list", DATA_TYPE
+"ModuleNotFoundError: No module named 'module_name'", MODULE
+"ZeroDivisionError: division by zero", ARITHMETIC
+"ValueError: invalid literal for int() with base 10: 'ABC'", DATA_TYPE
+"TypeError: 'tuple' object does not support item assignment", DATA_TYPE
+"AttributeError: 'list' object has no attribute 'remove_all'", DATA_STRUCTURE
+"RuntimeError: maximum recursion depth exceeded", RESOURCE
+"TypeError: object of type 'map' has no len()", DATA_STRUCTURE
+"OSError: [Errno 28] No space left on device", DISK
+"TypeError: 'str' object is not callable", DATA_TYPE
+"NameError: name 'function_name' is not defined", SYNTAX
+"TypeError: 'NoneType' object is not subscriptable", DATA_TYPE
+"KeyError: 'non_existent_key'", DATA_STRUCTURE
+"TypeError: 'dict' object is not callable", DATA_TYPE
+"error: expected expression before '}' token", SYNTAX
+"warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int'", DATA_TYPE
+"error: conflicting types for 'function_name'", DATA_TYPE
+"error: segmentation fault (core dumped)", MEMORY
+"error: invalid use of non-static data member 'member_name'", DATA_STRUCTURE
+"error: expected ')' before '->' token", SYNTAX
+"error: expected ';' at end of declaration", SYNTAX
+#"error: 'for' loop initial declarations are only allowed in C99 mode", SYNTAX
+"error: 'struct_name' has no member named 'member_name'", DATA_STRUCTURE
+"error: function 'function_name' is initialized like a variable", SYNTAX
+"warning: comparison between signed and unsigned integer expressions", DATA_TYPE
+"error: incompatible types when assigning to type 'char *' from type 'int'", DATA_TYPE
+"error: use of undeclared identifier 'variable_name'", SYNTAX
+"error: too few arguments to function 'function_name'", DATA_TYPE
+"error: expected identifier or '(' before '{' token", SYNTAX
+"error: redefinition of 'variable_name'", SYNTAX
+"error: invalid operands to binary expression ('int *' and 'int *')", DATA_TYPE
+"error: array type 'char [length]' is not assignable", DATA_STRUCTURE
+"error: expected expression before ')' token", SYNTAX
+"warning: pointer targets in passing argument 2 of 'function_name' differ in signedness", DATA_TYPE
+"error: 'return' with a value, in function returning void", SYNTAX
+"error: 'break' statement not within loop or switch", SYNTAX
+"error: 'variable_name' undeclared (first use in this function)", SYNTAX
+"error: invalid operands to binary expression ('int' and 'char *')", DATA_TYPE
+"warning: initialization makes integer from pointer without a cast", DATA_TYPE
+"error: expected expression before ';' token", SYNTAX
+"error: subscripted value is neither array nor pointer", DATA_STRUCTURE
+"error: incompatible pointer types passing 'int *' to parameter of type 'const void *'", DATA_TYPE
+"error: implicit declaration of function 'function_name'", SYNTAX
+"warning: comparison between pointer and integer", DATA_TYPE
+"error: too many arguments to function 'function_name'", DATA_TYPE
+"error: 'void' must be the only parameter", SYNTAX
+"error: invalid operands to binary expression ('char *' and 'char *')", DATA_TYPE
+"error: passing argument 1 of 'function_name' makes pointer from integer without a cast", DATA_TYPE
+"error: dereferencing pointer to incomplete type", DATA_STRUCTURE
+"warning: assignment makes pointer from integer without a cast", DATA_TYPE
+"error: expected declaration specifiers or '...' before 'variable_name'", SYNTAX
+"error: called object 'function_name' is not a function or function pointer", DATA_TYPE
+"error: 'struct_name' has no member named 'member_name'", DATA_STRUCTURE
+"error: conflicting types for 'function_name'", DATA_TYPE
+"error: 'struct_name' has no member named 'member_name'", DATA_STRUCTURE
+"error: 'continue' statement not within a loop", SYNTAX
+"error: 'variable_name' redeclared as different kind of symbol", SYNTAX
+"error: too many arguments to function 'function_name'", DATA_TYPE
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'", DATA_TYPE
+"IndexError: list index out of range", DATA_STRUCTURE
+"ValueError: invalid literal for int() with base 10: '10.5'", DATA_TYPE
+"NameError: name 'variable_name' is not defined", SYNTAX
+"AttributeError: 'list' object has no attribute 'remove_all'", DATA_STRUCTURE
+"FileNotFoundError: [Errno 2] No such file or directory: '/path/to/file.txt'", DISK
+"KeyError: 'key_name'", DATA_STRUCTURE
+"SyntaxError: invalid syntax", SYNTAX
+"ZeroDivisionError: division by zero", ARITHMETIC
+"TypeError: 'tuple' object does not support item assignment", DATA_TYPE
+"AttributeError: 'str' object has no attribute 'split'", DATA_STRUCTURE
+"ModuleNotFoundError: No module named 'module_name'", MODULE
+"TypeError: 'NoneType' object is not subscriptable", DATA_TYPE
+"ValueError: invalid literal for int() with base 10: 'ABC'", DATA_TYPE
+"OSError: [Errno 28] No space left on device", DISK
+"PermissionError: [Errno 13] Permission denied: '/path/to/protected_file.txt'", DISK
+"TypeError: 'float' object is not iterable", DATA_TYPE
+"RuntimeError: maximum recursion depth exceeded", RESOURCE
+"TypeError: object of type 'map' has no len()", DATA_STRUCTURE
+"TypeError: 'str' object is not callable", DATA_TYPE
+"NameError: name 'function_name' is not defined", SYNTAX
+"TypeError: can only concatenate list (not 'int') to list", DATA_TYPE
+"IndexError: only integers, slices (:), ellipsis (...), numpy.newaxis (None) and integer or boolean arrays are valid indices", DATA_STRUCTURE
+"CS0103: The name 'variable_name' does not exist in the current context", SYNTAX
+"CS1061: 'object' does not contain a definition for 'method_name' and no extension method 'method_name' accepting a first argument of type 'object' could be found", DATA_STRUCTURE
+"CS0117: 'class_name' does not contain a definition for 'method_name'", SYNTAX
+"CS0029: Cannot implicitly convert type 'type1' to 'type2'", DATA_TYPE
+"CS0246: The type or namespace name 'namespace_name' could not be found (are you missing a using directive or an assembly reference?)", MODULE
+"CS0023: Operator 'operator' cannot be applied to operands of type 'type1' and 'type2'", DATA_TYPE
+"CS1503: Argument 'argument_number' cannot convert 'type1' expression to type 'type2'", DATA_TYPE
+"CS7036: There is no argument given that corresponds to the required formal parameter 'parameter_name' of 'method_name'", DATA_TYPE
+"CS0101: The namespace 'namespace_name' already contains a definition for 'class_name'", SYNTAX
+"CS1069: The type name 'type_name' could not be found in the namespace 'namespace_name'", MODULE
+"CS0120: An object reference is required for the non-static field, method, or property 'member_name'", DATA_STRUCTURE
+"CS0122: 'class_name' is inaccessible due to its protection level", DATA_STRUCTURE
+"CS0246: The type or namespace name 'class_name' could not be found (are you missing a using directive or an assembly reference?)", MODULE
+"CS0115: 'class_name.method_name' no suitable method found to override", SYNTAX
+"CS0019: Operator 'operator' cannot be applied to operands of type 'type1' and 'type2'", DATA_TYPE
+"CS1061: 'class_name' does not contain a definition for 'member_name' and no extension method 'member_name' accepting a first argument of type 'class_name' could be found", DATA_STRUCTURE
+"CS0104: 'class_name' is an ambiguous reference between 'namespace1.class_name' and 'namespace2.class_name'", MODULE
+"CS0579: Duplicate 'attribute_name' attribute", SYNTAX
+"CS0118: 'method_name' is a 'method' but is used like a 'variable'", SYNTAX
+"CS0102: The type 'class_name' already contains a definition for 'member_name'", SYNTAX
+"CS1525: Invalid expression term 'invalid_term'", SYNTAX
+"CS0117: 'class_name' does not contain a definition for 'method_name'",SYNTAX
+"CS0103: The name 'variable_name' does not exist in the current context",SYNTAX
+"java.lang.UnsupportedOperationException: empty.tail",DATA_STRUCTURE
+"java.lang.ClassCastException: cannot cast class_name to class_name",DATA_TYPE
+"IndexError: only integers, slices (:), ellipsis (...), numpy.newaxis (None) and integer or boolean arrays are valid indices",DATA_STRUCTURE
+"TypeError: 'str' object is not callable",DATA_TYPE
+"AttributeError: 'list' object has no attribute 'remove_element'",DATA_STRUCTURE
+"CS0029: Cannot implicitly convert type 'type1' to 'type2'",DATA_TYPE
+"CS1061: 'object' does not contain a definition for 'method_name' and no extension method 'method_name' accepting a first argument of type 'object' could be found",DATA_STRUCTURE
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'",DATA_TYPE
+"java.lang.NullPointerException",SYNTAX
+"NameError: name 'variable_name' is not defined",SYNTAX
+"java.lang.IllegalArgumentException: Invalid format: ",DATA_TYPE
+"CS0246: The type or namespace name 'namespace_name' could not be found (are you missing a using directive or an assembly reference?)",SYNTAX
+"ValueError: invalid literal for int() with base 10: 'abc'",DATA_TYPE
+"KeyError: 'key_name'",DATA_STRUCTURE
+"TypeError: object of type 'map' has no len()",DATA_STRUCTURE
+"SyntaxError: invalid syntax",SYNTAX
+"IndexError: list index out of range",DATA_STRUCTURE
+"TypeError: can only concatenate list (not 'int') to list",DATA_TYPE
+"java.lang.ClassCastException: class_name cannot be cast to class_name",DATA_TYPE
+"AttributeError: 'tuple' object has no attribute 'remove_element'",DATA_STRUCTURE
+"ZeroDivisionError: division by zero",DATA_TYPE
+"java.lang.NoSuchMethodError: method_name",SYNTAX
+"CS1069: The type name 'type_name' could not be found in the namespace 'namespace_name' (are you missing an assembly reference?)",SYNTAX
+"IndentationError: unexpected indent",SYNTAX
+"FileNotFoundError: [Errno 2] No such file or directory: 'file_name.txt'",DATA_STRUCTURE
+"java.lang.ArrayIndexOutOfBoundsException: index",DATA_STRUCTURE
+"java.lang.ClassCastException: class_name cannot be cast to class_name",DATA_TYPE
+"AttributeError: 'set' object has no attribute 'remove_element'",DATA_STRUCTURE
+"TypeError: cannot unpack non-iterable object",DATA_STRUCTURE
+"CS0266: Cannot implicitly convert type 'type1' to 'type2'. An explicit conversion exists (are you missing a cast?)",DATA_TYPE
+"TypeError: 'float' object is not subscriptable",DATA_STRUCTURE
+"AttributeError: 'dict' object has no attribute 'remove_element'",DATA_STRUCTURE
+"java.lang.StringIndexOutOfBoundsException: String index out of range: ",DATA_STRUCTURE
+"java.lang.ArithmeticException: / by zero",DATA_TYPE
+"CS0019: Operator 'operator' cannot be applied to operands of type 'type1' and 'type2'",DATA_TYPE
+"NameError: global name 'function_name' is not defined",SYNTAX
+"AttributeError: 'int' object has no attribute 'append'",DATA_STRUCTURE
+"SyntaxError: unexpected EOF while parsing",SYNTAX
+"IndexError: list index out of range",DATA_STRUCTURE
+"TypeError: can't multiply sequence by non-int of type 'str'",DATA_TYPE
+"NameError: name 'module' is not defined",SYNTAX
+"KeyError: 'key'",DATA_STRUCTURE
+"TypeError: 'float' object is not subscriptable",DATA_STRUCTURE
+"ValueError: invalid literal for int() with base 10: '3.14'",DATA_TYPE
+"ZeroDivisionError: division by zero",DATA_TYPE
+"TypeError: 'NoneType' object is not subscriptable",DATA_STRUCTURE
+"SyntaxError: invalid syntax",SYNTAX
+"FileNotFoundError: [Errno 2] No such file or directory: 'file.txt'",DATA_STRUCTURE
+"TypeError: 'str' object is not callable",DATA_TYPE
+"NameError: name 'variable_name' is not defined",SYNTAX
+"AttributeError: 'list' object has no attribute 'remove_element'",DATA_STRUCTURE
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'",DATA_TYPE
+"ValueError: not enough values to unpack (expected 2, got 1)",DATA_STRUCTURE
+"SyntaxError: EOL while scanning string literal",SYNTAX
+"TypeError: 'float' object is not iterable",DATA_STRUCTURE
+"KeyError: 'nonexistent_key'",DATA_STRUCTURE
+"NameError: name 'function_name' is not defined",SYNTAX
+"IndexError: only integers, slices (:), ellipsis (...), numpy.newaxis (None) and integer or boolean arrays are valid indices",DATA_STRUCTURE
+"TypeError: can only concatenate list (not 'int') to list",DATA_TYPE
+"TypeError: 'tuple' object does not support item assignment",DATA_STRUCTURE
+"SyntaxError: unexpected character after line continuation character",SYNTAX
+"AttributeError: 'str' object has no attribute 'append'",DATA_STRUCTURE
+"NameError: name 'object_name' is not defined",SYNTAX
+"ValueError: invalid literal for int() with base 10: 'abc'",DATA_TYPE
+"TypeError: 'tuple' object does not support item deletion",DATA_STRUCTURE
+"FileNotFoundError: [Errno 2] No such file or directory: 'file_name.txt'",DATA_STRUCTURE
+"TypeError: 'int' object is not iterable",DATA_STRUCTURE
+"AttributeError: 'list' object has no attribute 'pop_item'",DATA_STRUCTURE
+"SyntaxError: invalid token",SYNTAX
+"IndexError: list assignment index out of range",DATA_STRUCTURE
+"NameError: name 'module' is not defined",SYNTAX
+"KeyError: 'key_name'",DATA_STRUCTURE
+"TypeError: 'NoneType' object is not iterable",DATA_STRUCTURE
+"ValueError: invalid literal for int() with base 10: '3,000'",DATA_TYPE
+"TypeError: 'int' object is not subscriptable",DATA_STRUCTURE
+"AttributeError: 'str' object has no attribute 'pop'",DATA_STRUCTURE
+"SyntaxError: invalid syntax (<stdin>, line 1)",SYNTAX
+"IndexError: tuple index out of range",DATA_STRUCTURE
+"NameError: name 'object_name' is not defined",SYNTAX
+"KeyError: 'missing_key'",DATA_STRUCTURE
+"TypeError: 'set' object is not subscriptable",DATA_STRUCTURE
+"ValueError: not enough arguments for format string",DATA_TYPE
+"/usr/local/file1.txt: 'float' object is not subscriptable",DATA_STRUCTURE
+"/var/www/file2.txt: 'NoneType' object is not subscriptable",DATA_STRUCTURE
+"/home/user/documents/file3.txt: unsupported operand type(s) for -: 'str' and 'int'",DATA_TYPE
+"/usr/local/file4.txt: list index out of range",DATA_STRUCTURE
+"/var/www/file5.txt: name 'module' is not defined",SYNTAX
+"/home/user/documents/file6.txt: 'dict' object has no attribute 'append'",DATA_STRUCTURE
+"/usr/local/file7.txt: 'set' object is not subscriptable",DATA_STRUCTURE
+"/var/www/file8.txt: invalid literal for int() with base 10: 'abc'",DATA_TYPE
+"/home/user/documents/file9.txt: object of type 'int' has no len()",DATA_STRUCTURE
+"/usr/local/file10.txt: unhashable type: 'list'",DATA_TYPE
+"/var/www/file11.txt: 'str' object is not callable",DATA_TYPE
+"/usr/local/file12.txt: 'tuple' object does not support item deletion",DATA_STRUCTURE
+"/var/www/file13.txt: KeyError: 'missing_key'",DATA_STRUCTURE
+"/home/user/documents/file14.txt: 'NoneType' object is not iterable",DATA_STRUCTURE
+"/usr/local/file15.txt: ZeroDivisionError: division by zero",DATA_TYPE
+"/var/www/file16.txt: list assignment index out of range",DATA_STRUCTURE
+"/home/user/documents/file17.txt: 'int' object is not subscriptable",DATA_STRUCTURE
+"/usr/local/file18.txt: 'str' object has no attribute 'pop'",DATA_STRUCTURE
+"/var/www/file19.txt: IndexError: tuple index out of range",DATA_STRUCTURE
+"/home/user/documents/file20.txt: 'int' object is not iterable",DATA_STRUCTURE
+"/usr/local/file21.txt: 'float' object has no attribute 'append'",DATA_STRUCTURE
+"/var/www/file22.txt: SyntaxError: invalid syntax (<stdin>, line 1)",SYNTAX
+"/home/user/documents/file23.txt: 'tuple' object does not support item assignment",DATA_STRUCTURE
+"/usr/local/file24.txt: 'NoneType' object has no attribute 'remove_element'",DATA_STRUCTURE
+"/var/www/file25.txt: KeyError: 'key_name'",DATA_STRUCTURE
+"/home/user/documents/file26.txt: TypeError: can only concatenate list (not 'int') to list",DATA_TYPE
+"/usr/local/file27.txt: SyntaxError: EOL while scanning string literal",SYNTAX
+"/var/www/file28.txt: name 'object_name' is not defined",SYNTAX
+"/home/user/documents/file29.txt: 'set' object has no attribute 'remove_element'",DATA_STRUCTURE
+"/usr/local/file30.txt: 'float' object is not iterable",DATA_STRUCTURE
+"/var/www/file31.txt: TypeError: 'int' object does not support item deletion",DATA_STRUCTURE
+"/home/user/documents/file32.txt: ValueError: invalid literal for int() with base 10: '3,000'",DATA_TYPE
+"/usr/local/file33.txt: AttributeError: 'str' object has no attribute 'append'",DATA_STRUCTURE
+"/var/www/file34.txt: NameError: name 'variable_name' is not defined",SYNTAX
+"/home/user/documents/file35.txt: 'str' object has no attribute 'remove_element'",DATA_STRUCTURE
+"/usr/local/file36.txt: SyntaxError: unexpected EOF while parsing",SYNTAX
+"Unsupported operand type for /usr/local/file1.txt: expected 'int', got 'str'",DATA_TYPE
+"/var/www/file2.txt: Oops! Something went wrong. Please try again later.",DATA_STRUCTURE
+"Invalid literal for int() with base 10: 'abc'. File: /home/user/documents/file3.txt",DATA_TYPE
+"/usr/local/file4.txt - Index out of range",DATA_STRUCTURE
+"ModuleNotFoundError: No module named 'my_module'. File path: /var/www/file5.txt",SYNTAX
+"Attribute 'remove_element' not found in dict. File: /home/user/documents/file6.txt",DATA_STRUCTURE
+"TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'. File path: /usr/local/file7.txt",DATA_TYPE
+"/var/www/file8.txt: Something is not quite right here. Please check your inputs.",DATA_STRUCTURE
+"FileNotFoundError: File '/home/user/documents/file9.txt' not found",DATA_STRUCTURE
+"Unhashable type: 'set'. Path: /usr/local/file10.txt",DATA_TYPE
+"NameError: name 'function_name' is not defined. File: /var/www/file11.txt",SYNTAX
+"TypeError: 'tuple' object does not support item deletion. Path: /usr/local/file12.txt",DATA_STRUCTURE
+"/var/www/file13.txt - Key 'missing_key' not found",DATA_STRUCTURE
+"Cannot iterate over NoneType. File: /home/user/documents/file14.txt",DATA_STRUCTURE
+"ZeroDivisionError: division by zero. Location: /usr/local/file15.txt",DATA_TYPE
+"Index assignment out of range. Location: /var/www/file16.txt",DATA_STRUCTURE
+"Attribute 'pop' not found in str. File: /home/user/documents/file17.txt",DATA_STRUCTURE
+"/usr/local/file18.txt - Something went wrong while processing your request. Please contact support.",DATA_STRUCTURE
+"Tuple index out of range. File path: /var/www/file19.txt",DATA_STRUCTURE
+"Cannot iterate over int object. File: /home/user/documents/file20.txt",DATA_STRUCTURE
+"AttributeError: 'float' object has no attribute 'append'. File: /usr/local/file21.txt",DATA_STRUCTURE
+"SyntaxError: invalid syntax. File path: /var/www/file22.txt",SYNTAX
+"Cannot assign items to tuple. Path: /home/user/documents/file23.txt",DATA_STRUCTURE
+"'NoneType' object has no attribute 'remove_element'. File: /usr/local/file24.txt",DATA_STRUCTURE
+"Key 'key_name' not found in dict. Location: /var/www/file25.txt",DATA_STRUCTURE
+"TypeError: can only concatenate list (not 'int') to list. File: /home/user/documents/file26.txt",DATA_TYPE
+"/usr/local/file27.txt - Something went wrong. Please try again later.",DATA_STRUCTURE
+"Name 'object_name' is not defined. File path: /var/www/file28.txt",SYNTAX
+"Attribute 'remove_element' not found in set. File: /home/user/documents/file29.txt",DATA_STRUCTURE
+"Float object is not iterable. File path: /usr/local/file30.txt",DATA_STRUCTURE
+"TypeError: 'int' object does not support item deletion. File: /var/www/file31.txt",DATA_STRUCTURE
+"Invalid literal for int() with base 10: '3,000'. File path: /home/user/documents/file32.txt",DATA_TYPE
+"Error in node 3 of 16. Connection timed out.",DATA_STRUCTURE
+"Job failed with exit code 127. Check log files for more details.",SYNTAX
+"Error reading input file on node 42 of 64. File may be corrupt.",DATA_STRUCTURE
+"Memory allocation error on node 23 of 32. Check available memory and try again.",DATA_STRUCTURE
+"Process 12 terminated unexpectedly. Please check log files for more information.",SYNTAX
+"Job terminated due to out-of-memory error. Try reducing the number of nodes or using a smaller dataset.",DATA_STRUCTURE
+"Cannot write output file on node 5 of 8. Permission denied.",DATA_STRUCTURE
+"Invalid argument in function call on node 27 of 64. Check function arguments and try again.",SYNTAX
+"Error in module XYZ on node 14 of 16. Module may need to be updated.",SYNTAX
+"Job suspended due to resource constraints. Try submitting job at a later time.",DATA_STRUCTURE
+"Error in task 3 of 8. Please check log files for more information.",SYNTAX
+"Job terminated due to unexpected error. Contact support for assistance.",SYNTAX
+"Output file not found on node 9 of 32. Check that output file was created.",DATA_STRUCTURE
+"Error in process 5 of 8. Please check log files for more information.",SYNTAX
+"Cannot allocate memory on node 17 of 64. Check available memory and try again.",DATA_STRUCTURE
+"Job terminated due to signal 9 (Killed). Try reducing memory usage or increasing memory limits.",DATA_STRUCTURE
+"Error in library function call on node 12 of 16. Check library version and function parameters.",SYNTAX
+"Task 7 of 32 failed with error code 2. Check log files for more information.",SYNTAX
+"Process 4 terminated with error code 1. Please check log files for more information.",SYNTAX
+"Input file not found on node 23 of 64. Check that input file exists and is readable.",DATA_STRUCTURE
+"Error in file read on node 8 of 16. File may be corrupt or not readable.",DATA_STRUCTURE
+"Job terminated due to excessive CPU usage. Try optimizing code or increasing CPU limits.",DATA_STRUCTURE
+"Task 5 of 8 suspended due to resource constraints. Try submitting task at a later time.",DATA_STRUCTURE
+"Error in function call on node 15 of 32. Check function arguments and try again.",SYNTAX
+"Output file too large on node 6 of 16. Try reducing the size of the output or increasing storage limits.",DATA_STRUCTURE
+"Error in module ABC on node 3 of 16. Module may need to be recompiled.",SYNTAX
+"Job terminated due to signal 15 (Terminated). Check log files for more information.",SYNTAX
+"Error in task 8 of 32. Please check log files for more information.",SYNTAX
+"Input file too large on node 10 of 32. Try reducing the size of the input or increasing storage limits.",DATA_STRUCTURE
+"Job suspended due to excessive memory usage. Try reducing memory usage or increasing memory limits.",DATA_STRUCTURE
+"Error in process 2 of 4. Please check log files for more information.",SYNTAX
+"Task 2 of 16 failed with error code 3. Check log files for more information.",SYNTAX
+"Cannot open input file on node 16 of 64. Check that input file exists and is readable.",DATA_STRUCTURE
+"/mnt/scratch/input_1.txt: No space left on device", DATA_STRUCTURE
+"/scratch/input_2.txt: Connection refused", DATA_STRUCTURE
+"/home/user/compute_node_1: Kernel panic - not syncing", SYSTEM
+"/mnt/output_1.txt: Input/output error", DATA_STRUCTURE
+"/home/user/compute_node_2: Fatal error - out of memory", SYSTEM
+"/mnt/output_2.txt: Write error", DATA_STRUCTURE
+"/scratch/input_3.txt: Network is unreachable", DATA_STRUCTURE
+"/mnt/output_3.txt: Permission denied", DATA_STRUCTURE
+"/home/user/compute_node_3: CPU overheating - system halted", SYSTEM
+"/mnt/scratch/input_4.txt: Protocol not supported", DATA_STRUCTURE
+"/scratch/input_5.txt: File is locked", DATA_STRUCTURE
+"/mnt/scratch/input_6.txt: Disk quota exceeded", DATA_STRUCTURE
+"/mnt/output_4.txt: Broken pipe", DATA_STRUCTURE
+"/home/user/compute_node_4: Machine check exception", SYSTEM
+"/mnt/output_5.txt: No such file or directory", DATA_STRUCTURE
+"/scratch/input_7.txt: Address already in use", DATA_STRUCTURE
+"/mnt/output_6.txt: Resource temporarily unavailable", DATA_STRUCTURE
+"/mnt/scratch/input_8.txt: Operation timed out", DATA_STRUCTURE
+"/mnt/output_7.txt: Bad file descriptor", DATA_STRUCTURE
+"/home/user/compute_node_5: Failed to initialize PCI device", SYSTEM
+"/mnt/scratch/input_9.txt: Device not configured", DATA_STRUCTURE
+"/scratch/input_10.txt: Protocol driver not attached", DATA_STRUCTURE
+"/mnt/scratch/input_11.txt: Connection reset by peer", DATA_STRUCTURE
+"/mnt/output_8.txt: Disk quota exceeded", DATA_STRUCTURE
+"/home/user/compute_node_6: Processor thermal trip", SYSTEM
+"/mnt/output_9.txt: Broken pipe", DATA_STRUCTURE
+"/scratch/input_12.txt: Too many open files", DATA_STRUCTURE
+"/mnt/output_10.txt: Network dropped connection on reset", DATA_STRUCTURE
+"/mnt/scratch/input_13.txt: Network unreachable", DATA_STRUCTURE
+"/mnt/output_11.txt: Device or resource busy", DATA_STRUCTURE
+"/home/user/compute_node_7: Kernel panic - not syncing", SYSTEM
+"/mnt/output_12.txt: Interrupted system call", DATA_STRUCTURE
+"/scratch/input_14.txt: Connection timed out", DATA_STRUCTURE
+"/mnt/output_13.txt: Connection refused", DATA_STRUCTURE
+"/mnt/scratch/input_15.txt: Protocol not available", DATA_STRUCTURE
+"/mnt/output_14.txt: File exists", DATA_STRUCTURE
+"/home/user/compute_node_8: PCI error - unrecovered error detected", SYSTEM
+"/mnt/output_15.txt: Invalid argument", DATA_STRUCTURE
+"/scratch/input_16.txt: Cannot assign requested address", DATA_STRUCTURE
+"/mnt/output_16.txt: No such device", DATA_STRUCTURE
+"/mnt/scratch/input_17.txt: Network is down", DATA_STRUCTURE
+"/mnt/output_17.txt: Host is down", DATA_STRUCTURE
+"/home/user/compute_node_9: Fatal error - hardware error detected", SYSTEM
+"/mnt/output_18.txt: Connection timed out", DATA_STRUCTURE
+"/scratch/input_18.txt: No route to host", DATA_STRUCTURE
+"/mnt/scratch/input_19.txt: File too large", DATA_STRUCTURE
+"/mnt/output_19.txt: Socket operation on non-socket", DATA_STRUCTURE
+"/home/user/compute_node_10: MCE error - corrected hardware error", SYSTEM
+"at main.py line 45\nat module_a.py line 120", SYNTAX
+"Unable to open file: 'file.txt' at main.py line 35\nat module_b.py line 87\nat module_c.py line 12", DATA_STRUCTURE
+"NameError: global name 'variable_name' is not defined at main.py line 25\nat module_d.py line 10", SYNTAX
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'= at main.py line 55\nat module_e.py line 44\nat module_f.py line 9", DATA_TYPE
+"KeyError: 'key_name', at main.py line 30\nat module_g.py line 22\nat module_h.py line 6", DATA_STRUCTURE
+"ValueError: invalid literal for int() with base 10: 'abc', at main.py line 50\nat module_i.py line 33", DATA_TYPE
+"IndexError: list index out of range, at main.py line 40\nat module_j.py line 55", DATA_STRUCTURE
+"AttributeError: 'str' object has no attribute 'remove_element', at main.py line 60\nat module_k.py line 16", DATA_STRUCTURE
+"ZeroDivisionError: division by zero, at main.py line 65\nat module_l.py line 28\nat module_m.py line 15", DATA_TYPE
+"SyntaxError: invalid syntax, at main.py line 20", SYNTAX
+"FileNotFoundError: [Errno 2] No such file or directory: 'file.txt', at main.py line 70\nat module_n.py line 6", DATA_STRUCTURE
+"TypeError: 'NoneType' object is not subscriptable, at main.py line 75\nat module_o.py line 40\nat module_p.py line 8", DATA_STRUCTURE
+"AttributeError: 'list' object has no attribute 'popitem', at main.py line 80\nat module_q.py line 12", DATA_STRUCTURE
+"NameError: name 'function_name' is not defined, at main.py line 85\nat module_r.py line 21", SYNTAX
+"TypeError: 'tuple' object does not support item assignment, at main.py line 90\nat module_s.py line 9", DATA_STRUCTURE
+"IndexError: tuple index out of range, at main.py line 95\nat module_t.py line 16", DATA_STRUCTURE
+"KeyError: 'missing_key', at main.py line 100\nat module_u.py line 14", DATA_STRUCTURE
+"TypeError: can only concatenate str (not 'int') to str, at main.py line 105\nat module_v.py line 8", DATA_TYPE
+"AttributeError: 'float' object has no attribute 'append', at main.py line 110\nat module_w.py line 5", DATA_STRUCTURE
+"ValueError: could not convert string to float: 'abc', at main.py line 115\nat module_x.py line 19", DATA_TYPE
+"FileNotFoundError: [Errno 2] No such file or directory: 'input.txt', at main.py line 120\nat module_y.py line 22", DATA_STRUCTURE
+"TypeError: 'set' object does not support indexing, at main.py line 125\nat module_z.py line 11", DATA_STRUCTURE
+"CS0117: 'class_name' does not contain a definition for 'method_name', at main.cs line 25\nat class_name.cs line 10", SYNTAX
+"CS0103: The name 'variable_name' does not exist in the current context, at main.cs line 35\nat module_a.cs line 17", SYNTAX
+"CS0029: Cannot implicitly convert type 'type1' to 'type2', at main.cs line 45\nat module_b.cs line 20", DATA_TYPE
+"CS0122: 'method_name' is inaccessible due to its protection level, at main.cs line 55\nat module_c.cs line 8", SYNTAX
+"CS1061: 'object' does not contain a definition for 'method_name' and no extension method 'method_name' accepting a first argument of type 'object' could be found, at main.cs line 65\nat module_d.cs line 12", DATA_STRUCTURE
+"CS0115: 'class_name.method_name()' is marked as an override but no suitable method found to override, at main.cs line 75\nat class_name.cs line 25", SYNTAX
+"CS1503: Argument 1: cannot convert from 'type1' to 'type2', at main.cs line 85\nat module_e.cs line 30", DATA_TYPE
+"CS0120: An object reference is required for the non-static field, method, or property 'class_name.method_name()', at main.cs line 95\nat class_name.cs line 15", SYNTAX
+"CS0023: Operator 'operator_name' cannot be applied to operands of type 'type1' and 'type2', at main.cs line 105\nat module_f.cs line 7", DATA_TYPE
+"CS0234: The type or namespace name 'namespace_name' does not exist in the namespace 'parent_namespace_name', at main.cs line 115\nat module_g.cs line 11", SYNTAX
+"CS0123: No overload for 'method_name' matches delegate 'delegate_name', at main.cs line 125\nat module_h.cs line 18", SYNTAX
+"CS1069: The type name 'class_name<type1>' could not be found in the namespace 'namespace_name', at main.cs line 135\nat module_i.cs line 25", SYNTAX
+"CS1519: Invalid token 'token_name' in class, struct, or interface member declaration, at main.cs line 145\nat module_j.cs line 13", SYNTAX
+"CS0030: Cannot convert type 'type1' to 'type2', at main.cs line 155\nat module_k.cs line 22", DATA_TYPE
+"CS0236: A field initializer cannot reference the non-static field, method, or property 'class_name.method_name()', at main.cs line 165\nat class_name.cs line 30", SYNTAX
+"CS1520: Method must have a return type, at main.cs line 175\nat module_l.cs line 10", SYNTAX
+"CS0108: 'class_name' hides inherited member 'parent_class_name.member_name'. Use the new keyword if hiding was intended, at main.cs line 185\nat class_name.cs line 20", SYNTAX
+"Index was outside the bounds of the array", DATA_STRUCTURE
+"Object reference not set to an instance of an object", DATA_TYPE
+"The type or namespace name 'namespace_name' could not be found (are you missing a using directive or an assembly reference?)", SYNTAX
+"Cannot implicitly convert type 'type1' to 'type2'", DATA_TYPE
+"'class_name' does not contain a definition for 'method_name' and no accessible extension method 'method_name' accepting a first argument of type 'class_name' could be found", DATA_STRUCTURE
+"The name 'variable_name' does not exist in the current context", SYNTAX
+"The name 'interface_name' does not exist in the current context", SYNTAX
+"The type 'type1' already contains a definition for 'property_name'", SYNTAX
+"'method_name' cannot be accessed with an instance reference; qualify it with a type name instead", DATA_TYPE
+"The modifier 'modifier_name' is not valid for this item", SYNTAX
+"The call is ambiguous between the following methods or properties: 'method_name1' and 'method_name2'", SYNTAX
+"The property or indexer 'property_name' cannot be used in this context because the get accessor is inaccessible", DATA_TYPE
+"The property or indexer 'property_name' cannot be used in this context because it lacks the get accessor", DATA_TYPE
+"The type 'type_name' already contains a definition for 'method_name'", SYNTAX
+"Cannot implicitly convert type 'type1' to 'type2'. An explicit conversion exists (are you missing a cast?)", DATA_TYPE
+"Cannot assign to 'variable_name' because it is a 'read-only' variable", DATA_TYPE
+"Only assignment, call, increment, decrement, and new object expressions can be used as a statement", SYNTAX
+"An object reference is required for the non-static field, method, or property 'member_name'", DATA_TYPE
+"The type or namespace name 'type_or_namespace_name' could not be found (are you missing a using directive or an assembly reference?)", SYNTAX
+"The name 'method_name' does not exist in the current context", SYNTAX
+"The name 'class_name' does not exist in the namespace 'namespace_name' (are you missing an assembly reference?)", SYNTAX
+"Invalid token 'token_name' in class, struct, or interface member declaration", SYNTAX
+"The type or namespace name 'type_or_namespace_name' does not exist in the namespace 'namespace_name' (are you missing an assembly reference?)", SYNTAX
+"The type 'type_name' has no constructors defined", DATA_TYPE
+"The type or namespace name 'type_name' could not be found (are you missing a using directive or an assembly reference?)", SYNTAX
+"The left-hand side of an assignment must be a variable, property or indexer", SYNTAX
+"The type or namespace name 'type_name' could not be found (are you missing a using directive or an assembly reference?)", SYNTAX
+"The call is ambiguous between the following methods or properties: 'method_name1' and 'method_name2'", SYNTAX
+"The type 'type_name' already contains a definition for 'method_name'", SYNTAX
+"Cannot implicitly convert type 'type1' to 'type2'. An explicit conversion exists (are you missing a cast?)", DATA_TYPE
+"Cannot assign to 'variable_name' because it is a 'read-only' variable", DATA_TYPE
+"The type or namespace name 'namespace_name' could not be found (are you missing a using directive or an assembly reference?)", SYNTAX
+"SyntaxError: invalid syntax", SYNTAX
+"IndentationError: expected an indented block", SYNTAX
+"NameError: name 'variable_name' is not defined", SYNTAX
+"TypeError: 'int' object is not iterable", DATA_TYPE
+"AttributeError: 'str' object has no attribute 'append'", DATA_STRUCTURE
+"KeyError: 'missing_key'", DATA_STRUCTURE
+"TypeError: can only concatenate str (not 'int') to str", DATA_TYPE
+"ZeroDivisionError: division by zero", DATA_TYPE
+"ValueError: invalid literal for int() with base 10: 'abc'", DATA_TYPE
+"IndexError: list index out of range", DATA_STRUCTURE
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'", DATA_TYPE
+"NameError: name 'function_name' is not defined", SYNTAX
+"TypeError: 'NoneType' object is not subscriptable", DATA_STRUCTURE
+"AttributeError: 'float' object has no attribute 'append'", DATA_STRUCTURE
+"ValueError: could not convert string to float: 'abc'", DATA_TYPE
+"TypeError: 'set' object does not support indexing", DATA_STRUCTURE
+"TypeError: 'tuple' object does not support item assignment", DATA_STRUCTURE
+"TypeError: 'int' object is not callable", DATA_TYPE
+"TypeError: 'NoneType' object is not iterable", DATA_TYPE
+"TypeError: can only concatenate list (not 'int') to list", DATA_TYPE
+"AttributeError: 'tuple' object has no attribute 'remove_element'", DATA_STRUCTURE
+"NameError: name 'variable_name' is not defined", SYNTAX
+"TypeError: 'map' object is not subscriptable", DATA_STRUCTURE
+"NameError: name 'method_name' is not defined", SYNTAX
+"AttributeError: 'float' object has no attribute 'popitem'", DATA_STRUCTURE
+"IndexError: tuple index out of range", DATA_STRUCTURE
+"ValueError: could not convert string to float: 'abc'", DATA_TYPE
+"TypeError: 'dict' object is not callable", DATA_TYPE
+"NameError: name 'class_name' is not defined", SYNTAX
+"AttributeError: 'str' object has no attribute 'remove'", DATA_STRUCTURE
+"TypeError: 'int' object is not subscriptable", DATA_STRUCTURE
+"AttributeError: 'tuple' object has no attribute 'append'", DATA_STRUCTURE
+"NameError: name 'module_name' is not defined", SYNTAX
+"NameError: global name 'variable_name' is not defined", SYNTAX
+"TypeError: 'type' object is not subscriptable", DATA_STRUCTURE
+"TypeError: 'NoneType' object has no attribute 'append'", DATA_STRUCTURE
+"AttributeError: 'str' object has no attribute 'popitem'", DATA_STRUCTURE
+"IndexError: list assignment index out of range", DATA_STRUCTURE
+"TypeError: 'int' object is not iterable", DATA_TYPE
+"TypeError: unsupported operand type(s) for -: 'str' and 'int'", DATA_TYPE
+"TypeError: 'set' object is not subscriptable", DATA_STRUCTURE
+"TypeError: 'int' object is not callable", DATA_TYPE
+"AttributeError: 'list' object has no attribute 'remove_element'", DATA_STRUCTURE
+"IndexError: list index out of range", DATA_STRUCTURE
+"NameError: name 'function_name' is not defined", SYNTAX
+"TypeError: unsupported operand type(s) for +: 'float' and 'str'", DATA_TYPE
+"MemoryError: Unable to allocate [number] bytes for array with shape (shape)", MEMORY
+"RecursionError: maximum recursion depth exceeded in comparison", MEMORY
+"MemoryError: Out of memory", MEMORY
+"BufferError: memoryview: underlying buffer is not C-contiguous", MEMORY
+"OSError: [Errno 12] Cannot allocate memory", MEMORY
+"SystemError: Negative size passed to PyBytes_FromStringAndSize", MEMORY
+"OverflowError: Python int too large to convert to C long", MEMORY
+"ValueError: Out of range values are not accepted here", MEMORY
+"OverflowError: int too big to convert", MEMORY
+"OSError: [Errno 28] No space left on device", MEMORY
+"ValueError: Buffer too small (minimum size [size] needed)", MEMORY
+"SystemError: Failed to create new frame", MEMORY
+"RecursionError: maximum recursion depth exceeded while calling a Python object", MEMORY
+"SystemError: <built-in function [function_name]> returned NULL without setting an error", MEMORY
+"BufferError: memoryview: underlying buffer is not contiguous", MEMORY
+"SystemError: <built-in function [function_name]> failed to get arg count", MEMORY
+"SystemError: <built-in function [function_name]> failed to initialize correctly", MEMORY
+"ValueError: Array larger than available address space", MEMORY
+"System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.", MEMORY
+"System.AccessViolationException: Attempted to read or write protected memory.", MEMORY
+"System.ExecutionEngineException: Exception of type 'System.ExecutionEngineException' was thrown.", MEMORY
+"System.Threading.ThreadAbortException: Thread was being aborted.", MEMORY
+"System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.", MEMORY
+"System.IO.IOException: There is not enough space on the disk.", MEMORY
+"System.ArgumentException: Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.", MEMORY
+"System.ArgumentNullException: Value cannot be null.", MEMORY
+"System.ArgumentException: The buffer offset and length were not valid for the specified array.", MEMORY
+"System.ArgumentException: The sum of offset and count is greater than the length of buffer.", MEMORY
+"System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.", MEMORY
+"System.IO.IOException: There are not enough free resources available to complete this operation.", MEMORY
+"System.IO.IOException: The paging file is too small for this operation to complete.", MEMORY
+"SystemError: <built-in function [function_name]> returned NULL without setting an error", MEMORY
+"TypeError: memoryview: a bytes-like object is required, not 'tuple'", MEMORY
+"OSError: [Errno 12] Cannot allocate memory", MEMORY
+"MemoryError: Out of memory, please try again with smaller input data", MEMORY
+"ValueError: array is too big to fit into memory", MEMORY
+"TypeError: object of type 'map' has no len()", MEMORY
+"AttributeError: 'NoneType' object has no attribute 'shape'", MEMORY
+"TypeError: 'int' object is not iterable", MEMORY
+"RecursionError: maximum recursion depth exceeded in comparison", MEMORY
+"NameError: name 'function_name' is not defined", MEMORY
+"TypeError: can only concatenate list (not 'int') to list", MEMORY
+"IndexError: only integers, slices (:), ellipsis (...), numpy.newaxis (None) and integer or boolean arrays are valid indices", MEMORY
+"CS0103: The name 'variable_name' does not exist in the current context", MEMORY
+"CS1061: 'object' does not contain a definition for 'method_name' and no extension method 'method_name' accepting a first argument of type 'object' could be found", MEMORY
+"CS0117: 'class_name' does not contain a definition for 'method_name'", MEMORY
+"CS0029: Cannot implicitly convert type 'type1' to 'type2'", MEMORY
+"System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.", MEMORY
+"System.AccessViolationException: Attempted to read or write protected memory.", MEMORY
+"System.StackOverflowException: Exception of type 'System.StackOverflowException' was thrown.", MEMORY
+"System.ExecutionEngineException: Exception of type 'System.ExecutionEngineException' was thrown.", MEMORY
+"System.Threading.ThreadAbortException: Thread was being aborted.", MEMORY
+"System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.", MEMORY
+"System.IO.IOException: There is not enough space on the disk.", MEMORY
+"System.ArgumentException: Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.", MEMORY
+"System.ArgumentNullException: Value cannot be null.", MEMORY
+"System.ArgumentException: The buffer offset and length were not valid for the specified array.", MEMORY
+"System.ArgumentException: The sum of offset and count is greater than the length of buffer.", MEMORY
+"System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.", MEMORY
+"System.IO.IOException: There are not enough free resources available to complete this operation.", MEMORY
+"System.IO.IOException: The paging file is too small for this operation to complete.", MEMORY
+"System.OutOfMemoryException: Insufficient memory to continue the execution of the program.", MEMORY
+"System.ArgumentException: Destination array was not long enough. Check destIndex and length, and the array's lower bounds.", MEMORY
+"System.InvalidOperationException: Collection was modified; enumeration operation may not execute.", MEMORY
+"System.Threading.ThreadInterruptedException: Thread was interrupted from a waiting state.", MEMORY
+"System.NullReferenceException: Object reference not set to an instance of an object.", MEMORY
+"System.ArgumentException: The array cannot be null, empty or have a rank other than 1.", MEMORY
+"PermissionError: [Errno 13] Permission denied: 'file_name'", PERMISSION
+"PermissionError: [Errno 1] Operation not permitted: 'file_name'", PERMISSION
+"OSError: [Errno 30] Read-only file system", PERMISSION
+"OSError: [Errno 13] Permission denied: '/directory_name'", PERMISSION
+"OSError: [Errno 1] Operation not permitted: '/directory_name'", PERMISSION
+"OSError: [Errno 17] File exists: 'file_name'", PERMISSION
+"FileNotFoundError: [Errno 2] No such file or directory: 'file_name'", PERMISSION
+"FileNotFoundError: [Errno 13] Permission denied: 'file_name'", PERMISSION
+"FileExistsError: [Errno 17] File exists: 'file_name'", PERMISSION
+"FileNotFoundError: [WinError 5] Access is denied: 'file_name'", PERMISSION
+"PermissionError: [WinError 5] Access is denied: 'file_name'", PERMISSION
+"PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'file_name'", PERMISSION
+"PermissionError: [WinError 183] Cannot create a file when that file already exists: 'file_name'", PERMISSION
+"PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: '/directory_name'", PERMISSION
+"PermissionError: [WinError 5] Access is denied: '/directory_name'", PERMISSION
+"OSError: [WinError 5] Access is denied: '/directory_name'", PERMISSION
+"PermissionError: [WinError 5] Access is denied: '/directory_name/subdirectory_name'", PERMISSION
+"OSError: [WinError 5] Access is denied: '/directory_name/subdirectory_name'", PERMISSION
+"PermissionError: [WinError 5] Access is denied: 'file_name.txt'", PERMISSION
+"OSError: [WinError 5] Access is denied: 'file_name.txt'", PERMISSION
+"PermissionError: [WinError 5] Access is denied: '/directory_name/file_name'", PERMISSION
+"OSError: [WinError 5] Access is denied: '/directory_name/file_name'", PERMISSION
+"PermissionError: [WinError 5] Access is denied: '/directory_name/file_name.txt'", PERMISSION
+"OSError: [WinError 5] Access is denied: '/directory_name/file_name.txt'", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.IO.IOException: The process cannot access the file 'path_name' because it is being used by another process.", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.IO.IOException: The process cannot access the file 'path_name' because it is being used by another process.", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.IO.IOException: The process cannot access the file 'path_name' because it is being used by another process.", PERMISSION
+"OSError: [Errno 28] No space left on device", SPACE
+"IOError: [Errno 28] No space left on device", SPACE
+"FileNotFoundError: [Errno 2] No such file or directory: 'file_name': 'file_name'", SPACE
+"shutil.Error: shutil.Error: [Errno 28] No space left on device", SPACE
+"MemoryError", SPACE
+"sqlite3.OperationalError: database or disk is full", SPACE
+"sqlite3.OperationalError: disk I/O error", SPACE
+"disk I/O error", SPACE
+"pandas.errors.EmptyDataError: No columns to parse from file", SPACE
+"urllib.error.URLError: <urlopen error [Errno 28] No space left on device>", SPACE
+"OSError: [Errno 28] No space left on device: '/path/to/directory'", SPACE
+"shutil.Error: shutil.Error: [Errno 28] No space left on device: '/path/to/directory'", SPACE
+"IOError: [Errno 28] No space left on device: '/path/to/directory/file_name'", SPACE
+"shutil.Error: shutil.Error: [Errno 28] No space left on device: '/path/to/directory/file_name'", SPACE
+"OSError: [Errno 28] No space left on device: '/path/to/file_name'", SPACE
+"shutil.Error: shutil.Error: [Errno 28] No space left on device: '/path/to/file_name'", SPACE
+"IOError: [Errno 28] No space left on device: '/path/to/directory_name'", SPACE
+"shutil.Error: shutil.Error: [Errno 28] No space left on device: '/path/to/directory_name'", SPACE
+"IOError: [Errno 28] No space left on device: '/path/to/directory_name/subdirectory_name/file_name'", SPACE
+"shutil.Error: shutil.Error: [Errno 28] No space left on device: '/path/to/directory_name/subdirectory_name/file_name'", SPACE
+"OSError: [Errno 28] No space left on device: '/path/to/directory_name/subdirectory_name/file_name'", SPACE
+"shutil.Error: shutil.Error: [Errno 28] No space left on device: '/path/to/directory_name/subdirectory_name/file_name'", SPACE
+"System.IO.IOException: There is not enough space on the disk.", SPACE
+"System.IO.IOException: Not enough space is available to complete this operation.", SPACE
+"System.IO.IOException: The disk is full.", SPACE
+"System.IO.IOException: There is insufficient disk space to complete the operation.", SPACE
+"System.IO.IOException: There is not enough space on the disk to complete the operation.", SPACE
+"System.IO.IOException: Not enough storage is available to process this command.", SPACE
+"System.IO.IOException: There is not enough space on the disk to create the volume shadow copy of the storage location (0x8004231F)", SPACE
+"System.IO.IOException: Not enough space is available on the disk.", SPACE
+"System.IO.IOException: There is not enough space on the disk for the selected operation.", SPACE
+"System.IO.IOException: There is not enough space on the disk to complete the operation. (Exception from HRESULT: 0x80070070)", SPACE
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.IO.IOException: The process cannot access the file 'path_name' because it is being used by another process.", PERMISSION
+"OSError: [Errno 28] No space left on device", SPACE
+"System.IO.IOException: There is not enough space on the disk.", SPACE
+"System.InvalidCastException: Unable to cast object of type 'object_type' to type 'target_type'", DATA_TYPE
+"sqlite3.OperationalError: database or disk is full", SPACE
+"System.IO.IOException: The disk is full.", SPACE
+"TypeError: object of type 'map' has no len()", DATA_STRUCTURE
+"System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.", DATA_STRUCTURE
+"ValueError: math domain error", ARITHMETIC
+"IndexError: only integers, slices (:), ellipsis (...), numpy.newaxis (None) and integer or boolean arrays are valid indices", DATA_STRUCTURE
+#"SyntaxError: invalid syntax", SYNTAX
+"ModuleNotFoundError: No module named 'module_name'", MODULE
+"System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.", MEMORY
+"TypeError: 'int' object is not callable", DATA_TYPE
+"System.DivideByZeroException: Attempted to divide by zero.", ARITHMETIC
+#"System.IO.IOException: The process cannot access the file 'path_name' because it is being used by another process", PERMISSION
+"System.IO.IOException: Not enough space is available to complete this operation.", SPACE
+"System.IO.FileNotFoundException: Could not find file 'file_name'", DATA_STRUCTURE
+"System.StackOverflowException: Exception of type 'System.StackOverflowException' was thrown.", MEMORY
+"System.FormatException: The format of the input string is invalid.", DATA_FORMAT
+"AttributeError: 'module' object has no attribute 'function_name'", MODULE
+"CS1061: 'object' does not contain a definition for 'method_name' and no extension method 'method_name' accepting a first argument of type 'object' could be found", DATA_STRUCTURE
+"System.IO.IOException: There is insufficient disk space to complete the operation.", SPACE
+"System.IndexOutOfRangeException: Index was outside the bounds of the array.", DATA_STRUCTURE
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.IO.IOException: Not enough storage is available to process this command.", PERMISSION
+"System.IO.IOException: There is not enough space on the disk to complete the operation. (Exception from HRESULT: 0x80070070)", SPACE
+"System.ArgumentException: An item with the same key has already been added.", DATA_STRUCTURE
+"IOError: [Errno 28] No space left on device: '/path/to/directory_name'", SPACE
+"TypeError: 'str' object is not callable", DATA_TYPE
+"System.OverflowException: Arithmetic operation resulted in an overflow.", ARITHMETIC
+"System.IO.IOException: The handle is invalid.", SYSTEM
+"System.IO.IOException: There is not enough space on the disk to create the volume shadow copy of the storage location (0x8004231F)", SPACE
+"java.nio.file.AccessDeniedException: /path/to/file_name", PERMISSION
+"FileNotFoundError: [Errno 13] Permission denied: '/path/to/file_name'", PERMISSION
+"Error 5: Access is denied.", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"ERR_ACCESS_DENIED (Access is denied)", PERMISSION
+"Access is denied. (Error Code: 0x80070005)", PERMISSION
+"PermissionError: [Errno 13] Permission denied: '/path/to/file_name'", PERMISSION
+"java.security.AccessControlException: access denied (\"java.io.FilePermission\" \"/path/to/file_name\" \"read\")", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"chmod: changing permissions of '/path/to/file_name': Operation not permitted", PERMISSION
+"OSError: [Errno 28] No space left on device", SPACE
+"System.IO.IOException: There is not enough space on the disk.", SPACE
+"sqlite3.OperationalError: database or disk is full", SPACE
+"System.IO.IOException: The disk is full.", SPACE
+"No space left on device (Errno::ENOSPC)", SPACE
+"Error: Insufficient space for the download. Please check your available space.", SPACE
+"Unable to allocate XGBClassifier() memory. Tried to allocate X GB.", SPACE
+"systemd-journald[587]: Failed to write entry (19 items, 253 bytes), ignoring: No space left on device", SPACE
+"raise ShmException(\"Couldn't create shared memory segment\" err)\nShmException: Couldn't create shared memory segment Errno('No space left on device')", SPACE
+"java.nio.file.FileSystemException: /path/to/file_name: No such file or directory", DISK
+"System.IO.FileNotFoundException: Could not find file 'file_name'", DISK
+"OSError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"System.IO.DirectoryNotFoundException: Could not find a part of the path 'path_name'.", DISK
+"FileNotFoundError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"Error: The system cannot find the file specified.", DISK
+"IOError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"java.io.FileNotFoundException: /path/to/file_name (No such file or directory)", DISK
+"System.IO.FileNotFoundException: Could not find file 'file_name'", DISK
+"Error 1719: Windows Installer service could not be accessed.", SYSTEM
+"System.InvalidOperationException: Process has exited, so the requested information is not available.", SYSTEM
+"java.lang.RuntimeException: Failed to load Hadoop native library.", SYSTEM
+"Error: Host key verification failed.", SYSTEM
+"ValueError: Unable to configure handler 'syslog': (13, 'Permission denied')", SYSTEM
+"AttributeError: module 'os' has no attribute 'fork'", SYSTEM
+"RuntimeError: The underlying C library has exited with code 255 (unknown error code).", SYSTEM
+"System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.", SYSTEM
+"System.DivideByZeroException: Attempted to divide by zero.", ARITHMETIC
+"java.lang.ArithmeticException: / by zero", ARITHMETIC
+"ZeroDivisionError: division by zero", ARITHMETIC
+"System.OverflowException: Arithmetic operation resulted in an overflow.", ARITHMETIC
+"java.lang.ArithmeticException: Negative exponent", ARITHMETIC
+"System.OverflowException: Value was either too large or too small for an Int32.", ARITHMETIC
+"ValueError: math domain error", ARITHMETIC
+"Mathematical operation resulted in an overflow", ARITHMETIC
+"System.DivideByZeroException: Attempted to divide by zero.", ARITHMETIC
+"System.ArithmeticException: Overflow or underflow in the arithmetic operation.", ARITHMETIC
+"ValueError: time data 'invalid_date_string' does not match format '%Y-%m-%d %H:%M:%S'", DATA_FORMAT
+"ValueError: could not convert string to float: 'invalid_float_string'", DATA_FORMAT
+"ValueError: Invalid literal for int() with base 10: 'invalid_integer_string'", DATA_FORMAT
+"System.FormatException: The format of the input string is invalid.", DATA_FORMAT
+"TypeError: expected string or bytes-like object", DATA_FORMAT
+"AttributeError: 'datetime.datetime' object has no attribute 'strptime'", DATA_FORMAT
+"System.FormatException: The format of the input string is invalid.", DATA_FORMAT
+"ValueError: Invalid format specifier", DATA_FORMAT
+"ValueError: time data 'invalid_date_string' does not match format '%d/%m/%Y'", DATA_FORMAT
+"AttributeError: 'int' object has no attribute 'split'", DATA_FORMAT
+"TypeError: object of type 'map' has no len()", DATA_STRUCTURE
+"IndexError: list index out of range", DATA_STRUCTURE
+"System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.", DATA_STRUCTURE
+"IndexError: tuple index out of range", DATA_STRUCTURE
+"System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.", DATA_STRUCTURE
+"IndexError: list assignment index out of range", DATA_STRUCTURE
+"KeyError: 'invalid_key'", DATA_STRUCTURE
+"System.NullReferenceException: Object reference not set to an instance of an object.", DATA_STRUCTURE
+"IndexError: too many indices for array", DATA_STRUCTURE
+"System.InvalidOperationException: Collection was modified; enumeration operation may not execute.", DATA_STRUCTURE
+"System.Threading.SemaphoreFullException: The semaphore is full and cannot be signaled.", RESOURCE
+"System.TimeoutException: The operation has timed out.", RESOURCE
+"System.InvalidOperationException: The collection was modified after the enumerator was instantiated.", RESOURCE
+"System.IO.IOException: The semaphore timeout period has expired.", RESOURCE
+"Error: Insufficient resources to complete operation.", RESOURCE
+"System.IO.IOException: The semaphore cannot be set again.", RESOURCE
+"Resource temporarily unavailable (Errno::EAGAIN)", RESOURCE
+"System.ServiceModel.QuotaExceededException: The maximum message size quota for incoming messages (10000000) has been exceeded.", RESOURCE
+"System.IO.IOException: The request could not be performed because of an I/O device error.", RESOURCE
+"java.lang.OutOfMemoryError: unable to create new native thread", RESOURCE
+"Access is denied. (Error Code: 0x80070005)", PERMISSION
+"java.nio.file.AccessDeniedException: /path/to/file_name", PERMISSION
+"IOError: [Errno 13] Permission denied: '/path/to/file_name'", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"AttributeError: 'NoneType' object has no attribute 'property_name'", PERMISSION
+"System.Security.SecurityException: Request for the permission of type 'System.Security.Permissions.SecurityPermission, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' failed.", PERMISSION
+"javax.servlet.ServletException: java.security.AccessControlException: access denied (\"javax.management.MBeanServerPermission\" \"createMBeanServer\")", PERMISSION
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"PermissionError: [Errno 13] Permission denied: '/path/to/file_name'", PERMISSION
+"Error: EACCES: permission denied, unlink '/path/to/file_name'", PERMISSION
+"System.IO.IOException: There is not enough space on the disk.", SPACE
+"OSError: [Errno 28] No space left on device: '/path/to/directory_name'", SPACE
+"sqlite3.OperationalError: database or disk is full", SPACE
+"System.IO.IOException: The disk is full.", SPACE
+"ERROR: The device is full", SPACE
+"System.IO.IOException: There is insufficient disk space to complete the operation.", SPACE
+"Error: Unable to create file /path/to/file_name. Not enough space left on device.", SPACE
+"Unable to allocate XGBClassifier() memory. Tried to allocate X GB.", SPACE
+"System.IO.IOException: There is not enough space on the disk to create the volume shadow copy of the storage location (0x8004231F)", SPACE
+"java.io.IOException: No space left on device", SPACE
+"java.nio.file.FileSystemException: /path/to/file_name: No such file or directory", DISK
+"System.IO.FileNotFoundException: Could not find file 'file_name'", DISK
+"OSError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"System.IO.DirectoryNotFoundException: Could not find a part of the path 'path_name'.", DISK
+"FileNotFoundError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"Error: The system cannot find the file specified.", DISK
+"IOError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"java.io.FileNotFoundException: /path/to/file_name (No such file or directory)", DISK
+"System.IO.FileNotFoundException: Could not find file 'file_name'", DISK
+"AttributeError: 'module' object has no attribute 'function_name'", DISK
+"System.Runtime.InteropServices.COMException: Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)", SYSTEM
+"Error: Failed to initialize systemd journal logger: No such file or directory", SYSTEM
+"System.ComponentModel.Win32Exception: The system cannot find the file specified", SYSTEM
+"java.lang.IllegalStateException: Could not load JDBC driver class", SYSTEM
+"System.IO.IOException: The system cannot find the path specified.", SYSTEM
