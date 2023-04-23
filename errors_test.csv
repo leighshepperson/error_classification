@@ -1,0 +1,38 @@
+Error,Category
+"FileNotFoundError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"IndexError: tuple index out of range", TYPE_ERROR
+"ValueError: could not convert string to float: 'invalid_float_string'", DATA_FORMAT
+"AttributeError: 'NoneType' object has no attribute 'property_name'", PERMISSION
+"java.lang.ArithmeticException: / by zero", ARITHMETIC
+"System.IO.IOException: There is not enough space on the disk.", SPACE
+"java.nio.file.FileSystemException: /path/to/file_name: No such file or directory", DISK
+"System.ArgumentNullException: Value cannot be null.", LOGIC
+"IndexError: list index out of range", TYPE_ERROR
+"java.lang.RuntimeException: Failed to load Hadoop native library.", SYSTEM
+"System.FormatException: The format of the input string is invalid.", DATA_FORMAT
+"System.UnauthorizedAccessException: Access to the path 'path_name' is denied.", PERMISSION
+"System.InvalidOperationException: Process has exited, so the requested information is not available.", SYSTEM
+"ValueError: Invalid format specifier", DATA_FORMAT
+"Error: The system cannot find the file specified.", DISK
+"ZeroDivisionError: division by zero", ARITHMETIC
+"System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.", TYPE_ERROR
+"IOError: [Errno 13] Permission denied: '/path/to/file_name'", PERMISSION
+"System.ServiceModel.QuotaExceededException: The maximum message size quota for incoming messages (10000000) has been exceeded.", RESOURCE
+"System.OverflowException: Value was either too large or too small for an Int32.", ARITHMETIC
+"AttributeError: 'int' object has no attribute 'split'", DATA_FORMAT
+"System.InvalidOperationException: Collection was modified; enumeration operation may not execute.", RESOURCE
+"System.DivideByZeroException: Attempted to divide by zero.", ARITHMETIC
+"System.ServiceModel.CommunicationObjectFaultedException: The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.", SYSTEM
+"Error: EACCES: permission denied, unlink '/path/to/file_name'", PERMISSION
+"System.NullReferenceException: Object reference not set to an instance of an object.", TYPE_ERROR
+"System.IO.DirectoryNotFoundException: Could not find a part of the path 'path_name'.", DISK
+"System.IO.IOException: The semaphore timeout period has expired.", RESOURCE
+"System.ArgumentException: The path is not of a legal form.", DISK
+"System.IO.IOException: The disk is full.", SPACE
+"System.DivideByZeroException: Attempted to divide by zero.", ARITHMETIC
+"System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.", TYPE_ERROR
+"OSError: [Errno 2] No such file or directory: '/path/to/file_name'", DISK
+"Error: Insufficient space for the download. Please check your available space.", SPACE
+"javax.servlet.ServletException: java.security.AccessControlException: access denied (\"javax.management.MBeanServerPermission\" \"createMBeanServer\")", PERMISSION
+"System.ServiceModel.QuotaExceededException: The maximum message size quota for incoming messages (10000000) has been exceeded.", RESOURCE
+"IndexError: only integers, slices (:), ellipsis (...), numpy.newaxis (None) and integer or boolean arrays are valid indices", TYPE_ERROR

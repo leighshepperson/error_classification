@@ -4,12 +4,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.model_selection import train_test_split, GridSearchCV, RandomizedSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import LinearSVC, SVC
+from joblib import dump
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
@@ -20,10 +21,13 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 def preprocess_error_message(error):
+    # Remove messages that start with <foo>:
+    error = re.sub(r'^\w+:\s*', '', error)
     # Remove file paths (Windows and Linux)
     error = re.sub(r"([A-Za-z]:\\|\\\\|\\/)?(?:[-\w.]+(?:\\|\/))+[-\w.]+", "", error)
     # Remove numbers and special characters
     error = re.sub(r"[^a-zA-Z\s]", "", error)
+
     # Convert to lowercase
     error = error.lower()
     # Remove extra whitespaces
@@ -70,12 +74,13 @@ error_messages = data["Error"].apply(preprocess_error_message)
 categories = data["Category"]
 
 # Vectorize the error messages
-vectorizer = CountVectorizer()
+vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(error_messages)
+dump(vectorizer, "vectorizer")
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(
-    X, categories, test_size=0.2, random_state=42
+    X, categories, test_size=0.2, random_state=42, stratify=categories
 )
 
 param_distributions = {
@@ -220,3 +225,5 @@ for name, clf in classifiers.items():
         best_classifier = name
 
 print(best_classifier, best_f1_score)
+
+dump(classifiers[best_classifier], 'best_classifier_model.joblib')
