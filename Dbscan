@@ -1,0 +1,55 @@
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.cluster import DBSCAN
+from sklearn.preprocessing import normalize
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Sample error messages
+error_messages = [
+    'Error: Cannot find file',
+    'Error: File not found',
+    'Cannot locate the file',
+    'File not available',
+    'Server connection failed',
+    'Unable to connect to the server',
+    'Connection to server lost',
+    'Server not responding',
+    'A truly unique error message',
+    'Another distinct error message',
+]
+
+# Vectorize the error messages
+vectorizer = TfidfVectorizer(stop_words='english')
+X = vectorizer.fit_transform(error_messages)
+
+# Normalize the vectors
+X_normalized = normalize(X)
+
+# Cluster the error messages using DBSCAN
+dbscan = DBSCAN(eps=0.5, min_samples=2, metric='cosine')
+dbscan.fit(X_normalized)
+
+# Assign the cluster labels to the error messages
+labels = dbscan.labels_
+error_df = pd.DataFrame({'error_message': error_messages, 'cluster': labels})
+
+# Separate noise points (distinct error messages)
+noise_points = error_df[error_df['cluster'] == -1]
+print("Distinct error messages:")
+print(noise_points['error_message'])
+
+# Process the remaining clusters
+def representative_message(cluster_df):
+    return cluster_df.loc[cluster_df['similarity'].idxmax()]['error_message']
+
+representative_msgs = []
+for cluster in set(labels) - {-1}:  # Excluding noise points
+    cluster_df = error_df[error_df['cluster'] == cluster]
+    cluster_error_messages = vectorizer.transform(cluster_df['error_message'])
+    cluster_center = cluster_error_messages.mean(axis=0)
+    similarities = cosine_similarity(cluster_error_messages, cluster_center)
+    cluster_df['similarity'] = similarities
+    representative_msgs.append(representative_message(cluster_df))
+
+print("\nRepresentative error messages:")
+print(representative_msgs)
